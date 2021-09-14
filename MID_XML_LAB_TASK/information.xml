@@ -1,0 +1,30 @@
+<employee_info>
+<person> 
+<sl_no>1</sl_no>
+<name> John Doe</name>
+ <address> 
+<house>H#38</house>
+<road>R#3</road>
+<area>Banani</area> 
+ <city>Dhaka</city>
+  </address>
+ <department>Sales </department>
+ <salary>$20000 </salary>
+  </person> 
+<person> 
+<sl_no>2</sl_no>
+<name> Mark Zuckerberg</name>
+ <address> 
+<flat> A/1<flat>
+<house>H#20</house>
+<road>R#18</road>
+<area>Mirpur</area> 
+ <city>Dhaka</city>
+  </address>
+ <department>Account </department>
+ <salary>$12000 </salary>
+  </person> 
+</employee_info>                 
+                
+               
+              
