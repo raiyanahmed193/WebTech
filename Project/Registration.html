@@ -1,0 +1,58 @@
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+
+	<table border="1" width="50%" align="center">
+		<tr height="80px">
+			<td>
+        <center>
+          <h3>Create Your Account</h3>
+        </center>
+			</td>
+
+			<td align="right">
+				<a href="homepage.html">Home</a>| <a href="Login.html">Login</a>
+			</td>
+		</tr>
+
+    <tr height="500px">
+			<td colspan="2">
+				<fieldset>
+					<legend>
+						REGISTRATION
+					</legend>
+					<form method="post" action="registrationcheck.php">
+						Name: <br><input type="text" name="Name" value="" /> <br/><br/>
+						Email: <br><input type="email" name="Email" value="" /> <br/><br/>
+						User Name: <br> <input type="text" name="Username" value="" /> <br/><br/>
+						Password: <br><input type="password" name="Password" value="" /> <br/><br/>
+						Confirm Password:<br> <input type="password" name="ConfirmPassword" value="" /> <br/><br/>
+
+						<fieldset>
+							<legend>
+								Gender
+							</legend>
+							<input type="radio" name="Gender" value="Male" /> Male<br>
+							<input type="radio" name="Gender" value="Female" /> Female<br>
+							<input type="radio" name="Gender" value="Other" /> Other<br>
+						</fieldset> <br/><br/>
+
+						<fieldset>
+							<legend>
+								Date of birth
+							</legend>
+							<input type="date" name="Date" value="" />
+						</fieldset> <br/><br/>
+
+						<input type="submit" name="Submit" value="Sign in" />
+						<input type="reset" name="Reset" value="Reset" />
+					</form>
+				</fieldset>
+			</td>
+		</tr>
+
+	</table>
+</body>
+</html>
