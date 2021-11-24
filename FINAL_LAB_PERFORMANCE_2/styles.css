@@ -15,12 +15,12 @@ body {
   font-size: 2rem;
   border: 1px, solid Black;
   outline: none;
-  background-color: white;
+  background-color: skyblue;
 }
 
 .output {
   grid-column: 1 / -1 ;
-  background-color: white;
+  background-color: skyblue;
   display: flex;
   align-items: center;
   padding: 10px;
